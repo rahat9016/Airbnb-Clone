@@ -3,9 +3,9 @@ import { useRouter } from "next/router";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import InfoCard from "../components/InfoCard";
+import Map from "../components/Map";
 
 const Search = ({ searchResult }) => {
-  console.log(searchResult);
   const router = useRouter();
   const { location, startDate, endDate, noOfGuests } = router.query;
   const formattedStartDate = format(new Date(startDate), "dd MMMM yy");
@@ -43,6 +43,9 @@ const Search = ({ searchResult }) => {
               )
             )}
           </div>
+        </section>
+        <section className="hidden xl:inline-flex xl:min-w-[600px]">
+          <Map searchResult={searchResult} />
         </section>
       </main>
       <Footer />
