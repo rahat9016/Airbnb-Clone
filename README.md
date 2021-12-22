@@ -16,15 +16,19 @@
 
 # Airbnb-Clone
 
-"dependencies": {
-"@badrap/bar-of-progress": "^0.1.2",
-"@heroicons/react": "^1.0.5",
-"date-fns": "^2.27.0",
-"geolib": "^3.3.3",
-"next": "latest",
-"react": "^17.0.2",
-"react-date-range": "^1.4.0",
-"react-dom": "^17.0.2",
-"react-map-gl": "^6.1.18",
-"tailwind-scrollbar-hide": "^1.1.6"
-},
+```
+
+# What is we use in this website
+
+## @badrap/bar-of-progress
+## @heroicons/react
+## date-fns
+## geolib
+## next
+## react
+## react-date-range
+## react-dom
+## react-map-gl
+## tailwind-scrollbar-hide
+
+```
